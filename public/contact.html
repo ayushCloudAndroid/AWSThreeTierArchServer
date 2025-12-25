@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+<body>
+    <p>
+        Please sign up here to contact us
+    </p>
+    <h2>
+        User Form
+    </h2>
+    <form method="post" action="/submit">
+        Name: <input type = "text" name="name" placeholder="Enter your name"> <br>
+        Phone number: <input type = "tel" name="tel" placeholder="Include country code"> <br>
+        Email ID: <input type = "email" name="email" placeholder="Enter email id"> <br>
+        Date of birth: <input type="date" name="dob"> <br>
+        Country:
+        <select name="Country" name="country">
+            <option>
+                India
+            </option>
+            <option>
+                Denmark
+            </option>
+            <option>
+                Uganda
+            </option>
+            <option>
+                Netherlands
+            </option>
+        </select> <br>
+        <button type="submit"> SUBMIT </button>
+    </form>
+</body>
+</html>
