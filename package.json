@@ -1,0 +1,24 @@
+{
+  "name": "awsthreetierarchserver",
+  "version": "1.0.0",
+  "description": "Reseller form node server",
+  "homepage": "https://github.com/ayushCloudAndroid/AWSThreeTierArchServer#readme",
+  "bugs": {
+    "url": "https://github.com/ayushCloudAndroid/AWSThreeTierArchServer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushCloudAndroid/AWSThreeTierArchServer.git"
+  },
+  "license": "ISC",
+  "author": "Ayush",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.16.0"
+  }
+}

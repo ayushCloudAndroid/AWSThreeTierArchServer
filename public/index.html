@@ -10,15 +10,15 @@
         Please sign up here to contact us
     </p>
     <h2>
-        User Form
+        User Form (all fields mandatory)
     </h2>
     <form method="post" action="/submit">
-        Name: <input type = "text" name="name" placeholder="Enter your name"> <br>
-        Phone number: <input type = "tel" name="tel" placeholder="Include country code"> <br>
-        Email ID: <input type = "email" name="email" placeholder="Enter email id"> <br>
-        Date of birth: <input type="date" name="dob"> <br>
-        Country:
-        <select name="Country" name="country">
+        Name: <input type = "text" name="name" placeholder="Enter your name" required> <br>
+        Phone number: <input type = "tel" name="tel" placeholder="Include country code" required> <br>
+        Email ID: <input type = "email" name="email" placeholder="Enter email id" required> <br>
+        Date of birth: <input type="date" name="date" required> <br>
+        <!-- Country:
+        <select name="Country" name="country" required>
             <option>
                 India
             </option>
@@ -31,7 +31,7 @@
             <option>
                 Netherlands
             </option>
-        </select> <br>
+        </select> <br> <br> -->
         <button type="submit"> SUBMIT </button>
     </form>
 </body>
