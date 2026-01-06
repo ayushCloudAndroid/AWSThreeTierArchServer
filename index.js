@@ -43,9 +43,11 @@ db.query(sql, [name, tel, email, date], (err) =>
     res.send("Form Submitted Successfully!")
 }
 );
-
 });
 
+app.get("/reseller", (req, res) => {
+    res.sendFile(path.join(__dirname, "public", "index.html"));
+});
 
 //running nodejs server on port 8080 (8080 is a sudo HTTP port)
 app.listen(8080, () => //app.listen runs the server on port 8080
